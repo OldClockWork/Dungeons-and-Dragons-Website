@@ -1,0 +1,199 @@
+/*
+         Unknown
+         Filename: styles.html
+      
+         Author: Micih Hines
+         Date: 12/2/2018
+		 Supporting Files:index.html, monsters.html, characterCreation.html
+*/
+
+/* img Section */
+
+img.logo{
+	width: 800px;
+	margin-bottom: -4px;
+}
+
+/*------------*/
+
+
+/* Body Section */
+
+body {
+	margin: 0px auto;
+	width: 800px;
+    background-image: url("../Images/blackScale.jpg");
+
+}
+
+body * {
+	font-family: Times, Verdana, Geneva, sans-serif;
+	font-weight: inherit;
+	line-height: 1.2em;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	vertical-align: baseline;
+}
+
+/*------------*/
+
+
+/*Audio Section*/
+audio{
+	margin-left: 25%;
+
+}
+
+p#warning{
+	margin-left: 25%;
+	padding-bottom: 5%;
+}
+
+
+/*Article Section*/
+
+article{
+	background-color:black;
+    padding: 20px;
+	border: ridge;
+	border-width: 5px;
+}
+
+/* Site Navigation */
+
+nav.horizontal {
+   padding-left: 10%;
+   background-color: grey;
+}
+nav.horizontal li {
+   display: inline-block;
+   margin: 0.4em 1em;
+   font-size: 1.1em;
+}
+nav.horizontal a:link {
+   color: yellow;
+   text-decoration: none;
+}
+nav.horizontal a:visited {
+   color: #ffffff;
+}
+nav.horizontal a:hover, nav.horizontal a:focus {
+   color: yellow;
+   text-shadow: 1px -1px 0 #000000;
+}
+
+/*------------*/
+
+/* p, h1, th, ul, a, button, aside section*/
+
+h1{
+	color:red;
+}
+
+button {
+	
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+
+
+aside{
+	display: block;
+	width: 400px;
+	float: right;
+	background: ivory;
+	border: 1px solid black;
+	padding: 10px 50px 100px 50px;
+	margin: 5px 10px 10px 10px;
+	
+}
+
+aside img{
+	float: right;
+	margin: 5px;
+	width: 300px;
+}
+
+
+aside{
+	height: 250px;
+	overflow: auto;
+	
+}
+
+p {
+	clear:left;
+	color:gold;
+}
+
+p.info{
+	color: black;
+}
+
+ul.stats{
+	color: gold;
+}
+
+a {
+	color: red;
+}
+
+.monster-pic {
+	margin-left: 35%;
+}
+
+/*--------*/
+
+
+
+/* Monster Choice Lists */
+
+.monster-list{
+	margin-left: 50px;
+	font-size: 25px;
+	float: left;
+	color: gold;
+}
+
+form{
+	color:gold;
+	padding-bottom: 200px;
+}
+form h1{
+	margin-left: 35%;
+	
+}
+
+form input.I1{
+	width: 50%;
+	
+}
+
+form textarea{
+	float: left;
+}
+
+.S1{
+	width: 10%;
+	float: left;
+    margin: 170px 5px 0px 50px;
+}
+
+
+/*------------*/
+
+/* Footer Section*/
+
+footer {
+	border-top: 2px solid rgb(68, 76, 169);
+	clear: both;
+	float: left;
+	width: 100%;
+	font-size: 16px;
+	color: red;
+}
+/*------------*/
+
+
+

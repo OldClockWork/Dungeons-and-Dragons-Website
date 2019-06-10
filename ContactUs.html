@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+      <!--
+         Unknown
+         Filename: index.html
+      
+         Author: Micih Hines
+         Date: 12/2/2018
+		 Supporting Files:index.html, Monsters.html, CharacterCreation.html, ContactUs.html, AboutUs.html, dndlogo.jpg
+      -->
+
+<html lang="en">
+   <head>
+   
+
+   
+       <title>About Us</title>
+	   
+	  <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+	  <link href="Assets/Styles/main.css" rel="stylesheet" type="text/css" >
+
+   
+   </head>
+    <body>
+	
+	      <header>
+      <img src="Assets/Images/dndlogo.jpg" alt="D&D Logo" class="logo">
+      </header>
+	
+	
+<nav class="horizontal">
+   <ul>
+      <li><a href="index.html">Home</a></li>
+	  <li><a href="Monsters.html">Monsters</a></li>
+	  <li><a href="CharacterCreation.html">Character Creation</a></li>
+	  <li><a href="ContactUs.html">Contact Us</a></li>
+	  <li><a href="AboutUs.html">About Us</a></li>
+   </ul>
+</nav>
+	
+<article>
+	
+<h1>Contact Us</h1>
+
+<br/>
+<p>Thank you for taking an interest in my site. You may comment using the form below.</p>
+<br/>
+	
+
+<form id="contact">
+
+  First name:<br/>
+  <input class="I1" type="text" name="firstname" value="First Name Here">
+  <br/><br/>
+  Last name:<br/>
+  <input class="I1" type="text" name="lastname" value="Last Name Here">
+  <br/><br/>
+  
+    Phone:<br/>
+  <input class="I1" type="text" name="lastname" value="Phone Number">
+  <br/><br/>
+  
+    Email:<br/>
+  <input class="I1" type="text" name="lastname" value="Email">
+  <br/><br/>
+  
+ <input type="checkbox" name="vehicle" value="Bike" style="margin-bottom: 30px">Please send me monthly newsletter<br>
+  
+  <textarea rows="3" cols="50">
+Leave comment here...
+</textarea>
+
+  <button class="S1" onclick="myFunction()">Send</button>  
+  <button class="S1" type="reset" value="Reset">Reset</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var FirstName = document.getElementById("contact").elements[0].value;
+	var LastName = document.getElementById("contact").elements[1].value;
+	var Phone = document.getElementById("contact").elements[2].value;
+	var Email = document.getElementById("contact").elements[3].value;
+    window.alert(FirstName + "\n" + LastName + "\n" + Phone + "\n" + Email + "\n" + " " + "\n" + "Thank you " + FirstName + " your comment has been submitted.");
+}
+</script>
+  
+</form> 
+</article>
+	
+	
+		<footer>
+   <address>
+      Dungeons & Dragons &#183;
+	  173 Steel Field &#183;
+	  Ravenwood, MO 66101 &#183;
+	  (314) 667 - 8158 &#183;
+	  wizard@dungeonsanddragons.com
+   </address>
+</footer>
+	</body>
+
+</html>
